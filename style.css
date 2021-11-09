@@ -1,0 +1,252 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2b454e;
+}
+nav span{
+    color: #00dfc0;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex; /*biar dapat membuat kolom-kolom di menunya */
+    line-height: 60px; /*biar bisa seimbang di tengah dari bagian divnya */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #2b454e ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #2b454e;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #00dfc0;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:comic sans-serif;
+    color:#2b454e ;
+}
+
+#home .kolom p{
+    color: black;
+    text-align: justify;
+}
+
+.kolom h2{
+    font-family:comic sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2b454e;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-signup{
+    background-color:#2b454e ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-signup:hover{
+    background:#00dfc0 ;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.btn-desc{
+    background-color:#00dfc0 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-desc:hover{
+    background:#2b454e;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#home .kolom span{
+    color:#00dfc0 ;
+}
+
+.kolom p{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+a.btn-courses{
+    background-color:#e88743;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-courses:hover{
+    background:#4766a6    ;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#courses .kolom span{
+    color:#e88743 ;
+}
+
+#courses .kolom .deskripsi{
+    color:#4766a6 ;
+}
+
+#courses .kolom h2{
+    color:#4766a6 ;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutor-card{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tutor-card img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.tutor-card p{
+    font-family: comic sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.partners-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners-card{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.partners-card img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact{
+    background:#dedede;
+    padding:30px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-list{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-list h3{
+    font-family: comic sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
