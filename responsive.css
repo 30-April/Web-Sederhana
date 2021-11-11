@@ -1,6 +1,6 @@
 @media all and (max-width : 1000px) {
     .wrapper{
-        width: 100%;
+        width: 50%;
         padding: auto;
     }
 
@@ -40,8 +40,75 @@
     .tutor-card {
         width: 50%;
     }
+    .partners-card{
+        width: 20%;
+    }
+
+}
+
+@media all and (max-width : 670px){    
+    nav{
+        line-height: 10px;
+    }
+
+    .wrapper{
+        width: 93%;
+    }
+
+    .wrapper p,h2{
+        text-align: center !important;
+    }
+
+    .logo a{
+        font-size: 30px;
+        text-align: left;
+        margin: 12px;
+    }
+
+    .tutor-list{
+        margin: 0 25%;
+        text-align: center;
+    }
+
+    .tutor-card {
+        width: 50%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .tutor-card img{
+        width: 100%;
+        
+    }
+
+
+    .partners-card{
+        width: 100%;
+    }
+
+    .menu-bar{
+        display: block;
+        margin: 0;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        width: 70%;
+        line-height: 30px;
+    }
+
+    .logo a{
+        font-size: 28px;
+    }
 
     .partners-card{
         width: 20%;
+    }
+
+    .partners-card img{
+        width: 100%;
     }
 }
