@@ -1,6 +1,6 @@
 @media all and (max-width : 1000px) {
     .wrapper{
-        width: 50%;
+        width: auto;
         padding: auto;
     }
 
@@ -49,59 +49,49 @@
 @media all and (max-width : 670px){    
     nav{
         line-height: 10px;
+        margin: 0;
+        padding: 0;
     }
 
     .wrapper{
-        width: 93%;
+        width: auto;
+        margin: 10px;
+        padding: auto;
     }
-
     .wrapper p,h2{
         text-align: center !important;
     }
 
     .logo a{
-        font-size: 30px;
+        font-size: 28px;
         text-align: left;
-        margin: 12px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .courses img{
+        display: none;
     }
 
     .tutor-list{
-        margin: 0 25%;
         text-align: center;
     }
 
     .tutor-card {
-        width: 50%;
-        text-align: center;
-        margin: 10px;
-    }
-
-    .tutor-card img{
-        width: 100%;
-        
-    }
-
-
-    .partners-card{
         width: 100%;
     }
 
     .menu-bar{
         display: block;
-        margin: 0;
+        width: 145%;
+    }
+
+    .tutor-card img{
+        width: 100%;
     }
 
     .menu{
         display: none;
-    }
-
-    .logo{
-        width: 70%;
-        line-height: 30px;
-    }
-
-    .logo a{
-        font-size: 28px;
     }
 
     .partners-card{
@@ -109,6 +99,6 @@
     }
 
     .partners-card img{
-        width: 100%;
+        width:100%;
     }
 }
