@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-Sederhana.</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <script src="https://kit.fontawesome.com/6975e810b9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <div class="wrapper">
             <div class="logo"><a href="">Web<span>-</span>Sederhana<span>.</span></a></div>
+            <!-- Untuk Tampilan Menu bar di HP-->
+            <div class="menu-bar">
+                <a><i class="fas fa-bars menu-icon"></i></a>
+            </div>
+            
             <div class="menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -25,8 +31,9 @@
         </div>
     </nav>
 
+    
+
     <div class="wrapper">
-        
         <!-- Untuk Home -->
         <section id="home">
             <img src="https://image.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg">
@@ -42,10 +49,10 @@
         <!-- untuk corses -->
         <section id="courses">
             <div class="kolom">
-                <p class="deskripsi">You Will Need This <span>!</span></p>
-                <h2>Online Courses <span>.</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eius! Reprehenderit quo, beatae, expedita voluptatibus obcaecati magni recusandae unde quia consectetur voluptatum alias eum, adipisci sint? Laborum atque quod ullam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique optio obcaecati dolor itaque iure tempora facilis nisi dicta cum tenetur, officia ipsa ut laudantium beatae.</p>
+                <h2>Courses<span>.</span></h2>
+                <p class="deskripsi">Apa Aja Sih Kursusnya<span>?</span></p>
+                <p>Di Web-sederhana. para pemula yang ingin belajar web development akan diarahkan sesuai dengan kebutuhan yang ada di lapangan. materi-materi yang disusun adalah materi ter-update! Sehingga kalian tidak merasa tertinggal dengan mereka-mereka yang mungkin sudah terjun di dunia Web Development.</p>
+                <p>Para peserta kursus awalnya akan diarahkan selama 1 bulan untuk memiliki polapikir programer, kebiasaan-kebiasaan yang membangun, serta dasar-dasar materi yang akan digunakan seperti HTML, CSS, JavaScript, dll. </p>
                 <p><a href="" class="btn-courses">Pelajari Lebih Lanjut</a></p>
 
             </div>
@@ -57,30 +64,34 @@
         <section id="tutors">
             <div class="tengah">
                 <div class="kolom">
-                    <p class="deskripsi">Our Top Tutors <spa>:</spa></p>
-                    <h2>Tutors</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, esse.</p>
+                    <p class="deskripsi">Our Time-Line</p>
+                    <h2>Web Development Course</h2>
+                    <p>Berikut adalah gambaran time-line dari program Web Development di Web-Sederhana.</p>
                 </div>
 
                 <div class="tutor-list">
                     <div class="tutor-card">
-                        <img src="https://pbs.twimg.com/profile_images/1158585353974013952/Tk0tCi8y_400x400.jpg">
-                        <p>Kaneki Kariga</p>
+                        <img src="https://image.freepik.com/free-vector/html5-programming-internet-website-development-web-application-engineering-script-writing-html-code-optimization-programmer-fixing-bugs_335657-263.jpg">
+                        <h1>Basic Knowladge</h1>
+                        <a href="#about"><button class="btn-course">Pelajari Lebih Lanjut!</button></a>
                     </div>
 
                     <div class="tutor-card">
-                        <img src="https://i.pinimg.com/originals/3b/f0/3d/3bf03de412fd34cac4042b4b0b0f7a59.jpg">
-                        <p>Suzuran Mahameru</p>
+                        <img src="https://image.freepik.com/free-vector/javascript-abstract-concept-illustration_335657-3702.jpg">
+                        <h1>Web Development I</h1>
+                        <a href="#about"><button class="btn-course">Pelajari Lebih Lanjut!</button></a>
                     </div>
 
                     <div class="tutor-card">
-                        <img src="https://wallpaperaccess.com/full/4595687.jpg">
-                        <p>Hatsuma Sizura</p>
+                        <img src="https://image.freepik.com/free-vector/linear-flat-web-application-code-illustration-app-development-concept-php-javascript-html5-cogwheels-screwdriver-program-editor-interface_126523-2672.jpg">
+                        <h1>Web Development II</h1>
+                        <a href="#about"><button class="btn-course">Pelajari Lebih Lanjut!</button></a>
                     </div>
 
                      <div class="tutor-card">
-                        <img src="https://i.pinimg.com/736x/4a/28/7b/4a287b8c36e5698100b95c697eca2ca5.jpg">
-                        <p>Mahoro Kaneki</p>
+                        <img src="https://image.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg">
+                        <h1>Web Development III</h1>
+                        <a href="#about"><button class="btn-course">Pelajari Lebih Lanjut!</button></a>
                     </div>
                 </div>
             </div>
@@ -90,30 +101,29 @@
         <section id="partners">
             <div class="tengah">
                 <div class="kolom">
-                    <p class="deskripsi">Our Top Partners <span>:</span></p>
                     <h2>Partners</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro magni maiores vel vitae molestias nam expedita quas ullam in ipsam!</p>
+                    <p>Web-Sederhana. bekerja sama dengan beberapa start-up dan e-comerces terbaik di Indonesia, kerja sama ini membuka peluang bagi peserta untuk bisa mencoba bekerja di tempat-tempat terbaik.</p>
                 </div>
 
                 <div class="partners-list">
                     <div class="partners-card">
-                        <img src="https://2.bp.blogspot.com/--Z5Fo7yfUdA/W-1Ohq8gAQI/AAAAAAAAHD0/UYS9sBLGDHsFx9S6oAKkt3SyFOSca5tGwCLcBGAs/s1600/unimed-min.png" alt="">
+                        <img src="https://4.bp.blogspot.com/-j4SyZdrtYTY/XgrrFX4kaUI/AAAAAAAABQQ/RihCfdGXpdkIQUSo3PKFbZFPEijrYejaQCLcBGAsYHQ/s1600/tokopedia.png" alt="">
                     </div>
 
                     <div class="partners-card">
-                        <img src="https://2.bp.blogspot.com/-74yO_iu2SFY/W-4QDOyh4yI/AAAAAAAAHE0/gOIb48bMv64fNuUfBTs11ts9NC3E-kvCwCLcBGAs/s1600/unsri-min.png" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCB-kCkWANRwedAUWNSmN3-cwoOOLhFB0ytsKk-VgTmwLYzXzpGQYNJzY-OIdeI1xKCws&usqp=CAU" alt="">
                     </div>
 
                     <div class="partners-card">
-                        <img src="https://1.bp.blogspot.com/-EcCwRESQ0O8/W-4S_P8yj3I/AAAAAAAAHHE/SVekoSbxuos3L_4mNri0POd_8sSrsZO3wCLcBGAs/s1600/tanjung%2Bpura-min.png" alt="">
+                        <img src="http://rsarrasyid.id/assets/rekanan/logo-bca.png" alt="">
                     </div>
 
                     <div class="partners-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/id/5/54/Logo_uny.gif" alt="">
+                        <img src="https://vocasia.id/blog/wp-content/uploads/2021/09/lazada_logo.png" alt="">
                     </div>
 
                     <div class="partners-card">
-                        <img src="https://3.bp.blogspot.com/-_5pWh6qDG1A/W-4R51C40qI/AAAAAAAAHGM/Uj-lk0CHMBgG5It_M4UYJsqubmyL4h3UQCLcBGAs/s1600/ugm-min.png" alt="">
+                        <img src="https://1.bp.blogspot.com/-mi2Pv-FokC8/XrJD1O7SstI/AAAAAAAAC2g/KfzawHFKqloL3hQw_0vD743SHlgud5IMgCLcBGAsYHQ/s1600/logo-bukalapak-terbaru-2020-png.png" alt="">
                     </div>
                 </div>
             </div>
