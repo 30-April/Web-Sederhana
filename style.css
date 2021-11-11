@@ -67,6 +67,17 @@ nav ul li a:hover{
     color: #00dfc0;
 }
 
+.menu-bar{
+    display: none; /* ini buat ngilangin menu bar, nanti ketika dibagian responsive handphone diubah jadi [display: block;] biar muncul*/
+}
+
+.menu-icon{
+    float: right;
+    font-size: 30px;
+    padding: 15px;
+    color: #2b454e;
+}
+
 section{
     margin: auto;
     display: flex;
@@ -188,13 +199,12 @@ a.btn-courses:hover{
 
 .tutor-card img{
     width: 80%;
-    border-radius: 50%;
 }
 
-.tutor-card p{
+.tutor-card h1{
     font-family: comic sans-serif;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: black;
 }
@@ -213,7 +223,7 @@ a.btn-courses:hover{
 
 .partners-card img{
     width: 150px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #contact{
@@ -249,4 +259,21 @@ a.btn-courses:hover{
     width: 100%;
     padding: 20px 0px;
     margin-top: 10px;
+}
+
+a .btn-course{
+    margin: 10px 0;
+    padding: 15px 40px;
+    color:#2b454e;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-shadow:0px 7px #2b454e;
+}
+
+a .btn-course:hover{
+    padding: 15px 40px;
+    background-color: #00dfc0;
+    cursor:pointer;
+    color: white;
 }
