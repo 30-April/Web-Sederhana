@@ -81,10 +81,13 @@
         width: 100%;
     }
 
+    /*
     .menu-bar{
         display: block;
         width: 145%;
     }
+
+    */
 
     .tutor-card img{
         width: 100%;
@@ -100,5 +103,11 @@
 
     .partners-card img{
         width:100%;
+    }
+
+    .footer-list{
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
     }
 }
